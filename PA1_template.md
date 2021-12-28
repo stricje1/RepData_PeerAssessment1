@@ -220,6 +220,7 @@ cat("The median of the total number of steps taken per day is ", median_total_st
 ```
 ## The median of the total number of steps taken per day is  10765
 ```
+
 ### *Plot the histogram*
 Here, we use R's base function to plot a histogram of the total steps per day.
 We also add aesthetics, including
@@ -229,6 +230,7 @@ We also add aesthetics, including
 * breaks, which is a single number, treated as a suggestion as it gives pretty breakpoints 
 
 We also generate ablines using the `abline()` function, which can be used to add vertical, horizontal or regression lines to a graph. We add the vertical lines to the histogram we created earlier at the mean and median points. This also demonstrates how additional plotting objects can be added to an existing plot.
+
 
 ```r
 hist(steps_by_date$total_steps, 
