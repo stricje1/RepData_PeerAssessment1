@@ -252,6 +252,7 @@ Next, we create an object to hold activity and imputed activity.
 ```{r echo=TRUE}
 Imputed <- activity
 ```
+
 ### *Find and replace missing values*
 Next, we find rows with missing (NA) data and replace them with the mean we calculate for the given for the intervals.
 
